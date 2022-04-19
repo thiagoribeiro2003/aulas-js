@@ -1,2 +1,2 @@
 # aulas-js
- Exemplos e exercícios desenvolvidos durante as aulas de JavaScript
+ Exemplos e exercícios desenvolvidos durante as aulas de JS.
