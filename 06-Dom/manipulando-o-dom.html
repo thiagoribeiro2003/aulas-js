@@ -8,7 +8,16 @@
 </head>
 
 <style>
-    figure { margin: 0;}
+    figure { margin: 0; }
+    img { max-width: 100%; }
+
+    .destaque-item {
+        color: purple;
+        background-color: lightblue;
+        border: solid 1px;
+        padding: 3px;
+        margin: 3px 0;
+    }
     
 </style>
 <body>  
@@ -41,7 +50,7 @@
 <hr>
 
 <h3>Editores</h3>
-<ul is="lista-editores">
+<ul id="lista-editores">
     <li>VS Code</li>    
     <li>Atom</li>
     <li>Sublime</li>
@@ -52,17 +61,19 @@
 
 <h2>Referências</h2>
 <ul>
-    <li><b>Eloquente JavaScript:</b></li>
+
+    <li><b>Eloquente JavaScript:</b>
     <a href=" https://github.com/braziljs/eloquente-javascript/blob/master/chapters/13-document-object-model.md"> O Document Model</a>
+    </li>   
 
     <li><b>MDN</b>
-        <a href=" https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM"> Modelo de Objeto de Documento (DOM)</a>
-       
+        <a href=" https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM"> Modelo de Objeto de Documento (DOM)</a>    
     </li>
 
     <li><b>Tableless</b>
         <a href="https://tableless.com.br/entendendo-o-dom-document-object-model/">Entendendo o DOM</a>
     </li>
+
 </ul>
 
 <script src="dom.js"></script>
