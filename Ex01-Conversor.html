@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+</head>
+<body>
+    <h1>Conversor de moedas</h1>
+    <hr>
+
+    <!--  Solução 1
+
+    <label for="valorDolar">Digite o valor que deseja converter:</label>
+    <input type="number" id="valorDolar" required>
+    <input type="submit" value="Converter" onclick="converteDolar()">
+
+    <h2 id="resultado"></h2>
+    -->
+
+
+    <!-- Solução 2 - Usuário digita o valor da moeda que quer converter:
+
+    <p><label for="cotacaoDolar">Cotação do Dolar:</label>
+    <input type="number" id="cotacaoDolar" required></p>
+
+    <p><label for="valorDolar">Digite o valor que deseja converter:</label>
+    <input type="number" id="valorDolar" required></p>
+    <input type="submit" value="Converter" onclick="converteDolar()">
+
+    <h2 id="resultado"></h2>
+    -->
+
+    <!-- Solução 3 -->
+
+    <form action="">
+        <p><label for="cotacao">Cotação do Dolar:</label>
+        <input type="number" id="cotacao" required min="0" max="" step="0.01"></p>
+
+        <p><label for="valor">Digite o valor que deseja converter:</label>
+        <input type="number" id="valor" required min="0" max="" step="0.01"></p>
+        <input type="submit" value="Converter">
+   </form>
+
+        <h2 id="resultado"></h2>
+
+
+
+
+
+
+
+
+
+
+       
+    <script src="conversor.js"></script> 
+</body>
+</html>
